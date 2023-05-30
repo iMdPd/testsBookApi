@@ -1,4 +1,4 @@
-cutText = require("../cutText");
+const cutText = require("../cutText");
 const expect = require("chai").expect;
 
 describe("cutText", () => {
