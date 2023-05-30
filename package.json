@@ -9,7 +9,7 @@
     "mocha": "^10.2.0"
   },
   "scripts": {
-    "test": "mocha --watch"
+    "test": "mocha --watch \"./{,!(node_modules|client)/**/}*.test.js\""
   },
   "author": "iMdPd"
 }
